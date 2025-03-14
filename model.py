@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
 
 
-df = pd.read_csv("/Users/mvahit/Documents/DSMLBC5/datasets/advertising.csv")
+df = pd.read_csv("/Users/datasets/advertising.csv")
 X = df.drop('sales', axis=1)
 y = df[["sales"]]
 
